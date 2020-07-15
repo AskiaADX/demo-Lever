@@ -45,13 +45,13 @@ section {
 }
 
 ul {
-  margin: 12px 0;
+  margin: .75em  0;
   padding: 0;
   list-style: none;
 }
 
 ul li {
-  margin: 16px 0;
+  margin: 1em 0;
   position: relative;
 }
 
@@ -75,14 +75,14 @@ ul li {
   input[type='radio'] {
     -webkit-appearance: none;
     -moz-appearance: none;
-    height: 21px;
+    height: 1.313em;
     outline: none;
     display: inline-block;
     vertical-align: top;
     position: relative;
     margin: 0;
     cursor: pointer;
-    border: 1px solid var(--bc, var(--border));
+    border: .063em solid var(--bc, var(--border));
     background: var(--b, var(--background));
     transition: background .3s, border-color .3s, box-shadow .2s;
   }
@@ -140,7 +140,7 @@ ul li {
 
   input[type='checkbox']:not(.switch),
   input[type='radio']:not(.switch) {
-    width: 21px;
+    width: 1.313em;
   }
 
   input[type='checkbox']:not(.switch)::after,
@@ -155,26 +155,26 @@ ul li {
 
   input[type='checkbox'] + label,
   input[type='radio'] + label {
-    font-size: 14px;
-    line-height: 21px;
+    font-size: .875rem;
+    line-height: 1.313em;
     display: inline-block;
     vertical-align: top;
     cursor: pointer;
-    margin-left: 4px;
+    margin-left: .25em;
   }
 
   input[type='checkbox']:not(.switch) {
-    border-radius: 7px;
+    border-radius: .438em;
   }
 
   input[type='checkbox']:not(.switch)::after {
-    width: 5px;
-    height: 9px;
-    border: 2px solid var(--active-inner);
+    width: .313em;
+    height: .563em;
+    border: .125em solid var(--active-inner);
     border-top: 0;
     border-left: 0;
-    left: 7px;
-    top: 4px;
+    left: .438em;
+    top: .25em;
     transform: rotate(var(--r, 20deg));
   }
 
@@ -183,23 +183,23 @@ ul li {
   }
 
   input[type='checkbox'].switch {
-    width: 38px;
-    border-radius: 11px;
+    width: 2.375em;
+    border-radius: .688em;
   }
 
   input[type='checkbox'].switch::after {
-    left: 2px;
-    top: 2px;
+    left: .125em;
+    top: .125em;
     border-radius: 50%;
-    width: 15px;
-    height: 15px;
+    width: .938em;
+    height: .938em;
     background: var(--ab, var(--border));
     transform: translateX(var(--x, 0));
   }
 
   input[type='checkbox'].switch:checked {
     --ab: var(--active-inner);
-    --x: 17px;
+    --x: 1.063em;
   }
 
   input[type='checkbox'].switch:disabled:not(:checked)::after {
@@ -211,8 +211,8 @@ ul li {
   }
 
   input[type='radio']::after {
-    width: 19px;
-    height: 19px;
+    width: 1.188em;
+    height: 1.188em;
     border-radius: 50%;
     background: var(--active-inner);
     opacity: 0;
