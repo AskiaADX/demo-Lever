@@ -36,6 +36,7 @@ section {
 
 .question-caption {
   font-weight: 700;
+  margin-bottom: 0;
 }
 
 ul {
