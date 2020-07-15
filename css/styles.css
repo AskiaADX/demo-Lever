@@ -17,6 +17,11 @@ html {
 }
 
 /* Demo styling NOT THE ADC */
+::selection {
+  color: var(--background);
+  background-color: var(--active);
+}
+
 body {
   min-height: 100vh;
   font-family: 'Inter', sans-serif;
