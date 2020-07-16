@@ -96,6 +96,12 @@ footer {
 
 /* Styling */
 @supports (-webkit-appearance: none) or (-moz-appearance: none) {
+  ul li {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+
   input[type='checkbox'],
   input[type='radio'] {
     -webkit-appearance: none;
