@@ -1,6 +1,6 @@
 /* Resets */
 :root {
-  font-size: 18px;
+  font-size: 19px;
 }
 
 html {
@@ -120,7 +120,6 @@ footer {
     top: 0;
     position: absolute;
     transition: opacity var(--d-o, .2s);
-    transition: transform var(--d-t, .3s) var(--d-t-e, ease), opacity var(--d-o, .2s);
     transition: transform var(--d-t, .3s) var(--d-t-e, ease), opacity var(--d-o, .2s);
   }
 
