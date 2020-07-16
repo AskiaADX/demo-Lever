@@ -102,6 +102,14 @@ footer {
     align-items: center;
   }
 
+  ul li input:not(.switch) {
+    flex: 0 0 1.313em;
+  }
+
+  ul li input.switch {
+    flex: 0 0 2.375em;
+  }
+
   input[type='checkbox'],
   input[type='radio'] {
     -webkit-appearance: none;
